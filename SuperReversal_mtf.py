@@ -32,7 +32,7 @@ pd.options.mode.chained_assignment = None
 
 
 # --------------------------------
-class SuperReversal_mtf(IStrategy):
+class SuperReversal_mtf2(IStrategy):
     # Strategy interface version - allow new iterations of the strategy interface.
     # Check the documentation or the Sample strategy to get the latest version.
     INTERFACE_VERSION = 3
@@ -171,5 +171,5 @@ class SuperReversal_mtf(IStrategy):
 
 ################################################################################################
 
-class SuperReversal_mtf_5min(SuperReversal_mtf):
+class SuperReversal_mtf_5min(SuperReversal_mtf2):
     timeframe = '5m'
